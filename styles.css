@@ -104,3 +104,26 @@ h1{
     aspect-ratio: 3/2;
     object-fit: cover;
 }
+
+.container-three{
+    font-size: 36px;
+    font-weight: 300;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+
+.container-three i{
+    width: 800px;
+    flex: 1;
+}
+
+.container-three p{
+    width: 800px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+}
