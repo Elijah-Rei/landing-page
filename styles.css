@@ -26,7 +26,7 @@ ul{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 8px;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
@@ -66,4 +66,38 @@ h1{
     padding: 4px 16px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-two h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.cards{
+    width: 140px;
+    height: auto;
+}
+
+.cards img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
 }
