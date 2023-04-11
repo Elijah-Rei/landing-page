@@ -155,6 +155,11 @@ h3{
     color: #e5e7eb;
 }
 
+.left button{
+    width: 100px;
+    padding: 7px 20px;
+}
+
 .call-to-action button{
     font-size: 14px;
     font-weight: 500;
@@ -164,6 +169,10 @@ h3{
     border: 2px solid white;
     border-radius: 5px;
     padding: 7px 10px;
+}
+
+.left button:hover, .call-to-action button:hover{
+    cursor: pointer;
 }
 
 #footer{
