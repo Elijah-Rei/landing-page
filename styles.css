@@ -77,7 +77,7 @@ h1{
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 70px;
 }
 
 .container-two h2{
@@ -127,4 +127,50 @@ h1{
     font-weight: 500;
     display: flex;
     justify-content: flex-end;
+}
+
+.container-four{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    color: #f9faf8;
+    padding: 60px 120px;
+    border-radius: 10px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+.call-to-action p, h3{
+    margin: 0px;
+    color: #e5e7eb;
+}
+
+.call-to-action button{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    width: 110px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
 }
