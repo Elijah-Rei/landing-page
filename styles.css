@@ -77,6 +77,7 @@ h1{
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
+    padding: 50px;
 }
 
 .container-two h2{
@@ -90,8 +91,8 @@ h1{
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    gap: 50px;
-
+    margin: 50px 0px;
+    gap: 40px;
 }
 
 .cards{
